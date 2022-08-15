@@ -1,0 +1,156 @@
+body{
+    position: relative;
+}
+
+.table1{
+   margin-top: 2%;
+   border: 1px solid grey;
+   border-collapse: collapse;
+   width: 54rem;
+ 
+
+}
+
+#output{
+    background-color: rgb(164, 226, 72);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    
+}
+
+#input{
+    background-color: rgb(168, 241, 168);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 98%;
+
+}
+
+#input1{
+    background-color: rgb(168, 241, 168);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 99%;
+}
+
+
+
+.table2{
+    border: 1px solid grey; 
+    border-collapse: collapse;
+}
+
+#header{
+    font-family: Arial, Helvetica, sans-serif;  
+    font-weight: bold;
+    color: white;
+    background-color: rgb(255, 0, 221);
+}
+
+#output2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: rgb(236, 253, 142);
+    font-weight: bold;
+}
+
+#input2{
+    background-color: rgb(168, 241, 168);
+    font-family: Arial, Helvetica, sans-serif;  
+    width: 97%;
+}
+
+.table3{
+    border-collapse: collapse;
+    border: 1px solid grey; 
+}
+
+#not{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 0, 221);
+}
+
+#not2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 0, 221);
+}
+
+#ilk{
+    background-color: rgb(236, 253, 142);
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold; 
+}
+
+#son{
+    background-color: rgb(168, 241, 168);
+    font-family: Arial, Helvetica, sans-serif;  
+    font-weight: bold;
+}
+.table4{
+    border-collapse: collapse;
+    border: 1px solid grey; 
+    width: 54rem;
+}
+
+#header4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 0, 221);
+}
+
+#text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(168, 241, 168);
+}
+
+#text2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(236, 253, 142);
+}
+
+#text3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(168, 241, 168);
+}
+
+#button{
+    background-color: rgb(255, 0, 221);
+    color: white;
+    border-radius: 20px;
+    border: rgb(255, 0, 221);
+    position: absolute;
+    left: 49rem;
+    width: 6rem;
+    height: 2rem;
+}
+
+.table5{
+    border: 1px solid grey; 
+    border-collapse: collapse;
+    position: absolute;
+    left: 25rem;
+    top: 8rem;
+    
+}
+
+#output5{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 0, 221);
+}
+
+#input5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(168, 241, 168);
+}

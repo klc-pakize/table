@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tablo</title>
+</head>
+<body>
+
+    <form action="./result.html">
+
+        <table border="1" class="table1">
+            <tbody>
+                <tr>
+                    <td id="output">Adınız Soyadınız</td>
+                    <td><input type="text" name="Ad" id="input"></td>
+                    <td id="output">Kursun Adı</td>
+                    <td><input type="text" name="Kursun-adi" id="input"></td>
+                </tr>
+    
+                <tr>
+                    <td id="output">Öğretmeniniz</td>
+                    <td><input type="text" name="Ögretmen-adi" id="input"></td>
+                    <td id="output">Kurs Günleri</td>
+                    <td><input type="date" name="Kurs-günleri" id="input1"></td>
+                </tr>
+    
+                <tr>
+                    <td id="output">Sınav Notunuz</td>
+                    <td><input type="number" name="Sinav-notu" id="input"></td>
+                    <td id="output">Kurs Saati</td>
+                    <td><input type="text" name="Kurs-saati" id="input"></td>
+                </tr>
+            </tbody>
+        </table>
+
+    <br><br><br>
+
+    <table border="1" class="table2">
+
+
+        <thead>
+            <tr>
+                <th id="header" colspan="3"> Başarınızı Kime Borçlusunuz (Evet/Hayır)</th> 
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td id="output2" rowspan="4">%</td>
+                <td><input type="text" name="basarimi-kendime" id="input2"></td>
+                <td id="output2">Kendime</td>
+                
+            </tr>
+
+            <tr>
+                <td><input type="text" name="basarimi-ogretmenime" id="input2"></td>
+                <td id="output2" >Öğretmenime</td>
+            </tr>
+
+            <tr>
+                <td><input type="text" name="basarimi-kursa" id="input2"></td>
+                <td id="output2" >Kursa</td>
+            </tr>
+
+            <tr>
+                <td><input type="text" name="basarimi-diger" id="input2"></td>
+                <td id="output2" >Diğer</td>
+            </tr>
+
+        </tbody>
+    </table>
+    
+
+    <table class="table5" border="1">
+        <thead>
+            <tr>
+                <th id="output5">Ne Düzeyde Bilgisayar Öğrendiğinizi Düşünüyorsunuz ?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><textarea name="pc-düzeyi"  id="input5" cols="60" rows="6"></textarea></td>
+            </tr>
+        </tbody>
+    </table>
+
+        <br><br><br>
+        <table border="1" class="table3">
+            <thead>
+                <tr id="not">
+                    <th colspan="5">Not Verin</th>
+                </tr>
+    
+                <tr id="not2">
+                    <th></th>
+                    <th>Çok Kötü (0-40)</th>
+                    <th>Kötü (41-60)</th>
+                    <th>Orta (61-80)</th>
+                    <th>İyi (81-100)</th>  
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <td id="ilk">Kurs Yönetimi</td>
+                    <td><input type="number" name="kursu-yont-puan" id="ilk"></td>
+                    <td><input type="number" name="kursu-yont-puan" id="ilk"></td>
+                    <td><input type="number" name="kursu-yont-puan" id="ilk"></td>
+                    <td><input type="number" name="kursu-yont-puan" id="ilk"></td>
+    
+                </tr>
+                <tr>
+                    <td id="son">Öğretmen</td>
+                    <td><input type="number" name="ogretmen-puan" id="son"></td>
+                    <td><input type="number" name="ogretmen-puan" id="son"></td>
+                    <td><input type="number" name="ogretmen-puan" id="son"></td>
+                    <td><input type="number" name="ogretmen-puan" id="son"></td>
+    
+                </tr>
+                <tr>
+                    <td id="ilk">Kendim</td>
+                    <td><input type="number" name="kendim-puan" id="ilk"></td>
+                    <td><input type="number" name="kendim-puan" id="ilk"></td>
+                    <td><input type="number" name="kendim-puan" id="ilk"></td>
+                    <td><input type="number" name="kendim-puan" id="ilk"></td>
+    
+                </tr>
+                <tr>
+                    <td id="son">Ücret</td>
+                    <td><input type="number" name="ucret-puan" id="son"></td>
+                    <td><input type="number" name="ucret-puan" id="son"></td>
+                    <td><input type="number" name="ucret-puan" id="son"></td>
+                    <td><input type="number" name="ucret-puan" id="son"></td>
+    
+                </tr>
+                <tr>
+                    <td id="ilk">Kurs Kaynakları</td>
+                    <td><input type="number" name="kurs-kaynak-puan" id="ilk"></td>
+                    <td><input type="number" name="kurs-kaynak-puan" id="ilk"></td>
+                    <td><input type="number" name="kurs-kaynak-puan" id="ilk"></td>
+                    <td><input type="number" name="kurs-kaynak-puan" id="ilk"></td>
+    
+                </tr>
+                <tr>
+                    <td id="son">Genel</td>
+                    <td><input type="number" name="genel-puan" id="son"></td>
+                    <td><input type="number" name="genel-puan" id="son"></td>
+                    <td><input type="number" name="genel-puan" id="son"></td>
+                    <td><input type="number" name="genel-puan" id="son"></td>
+    
+                </tr>
+            </tbody>
+        </table>
+    
+
+
+
+
+
+        <br><br><br>
+        <table border="1" class="table4">
+            <thead>
+                <tr>
+                    <th colspan="3" id="header4">Eleştiri ve Önerileriniz</th>
+                </tr>
+                <tr>
+                    <th id="text1">Kurs Genel</th>
+                    <th id="text2">Öğretmen</th>
+                    <th id="text3">Diğer</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><textarea name="elestri-oneri-kurs" id="text1" cols="36" rows="10"></textarea></td>
+                    <td><textarea name="elestri-oneri-ogretmen" id="text2" cols="36" rows="10"></textarea></td>
+                    <td><textarea name="elestri-oneri-diger" id="text3" cols="36" rows="10"></textarea></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <BR></BR>
+        <input type="submit" value="Gönder" id="button">
+
+    </form>
+</body>
+</html>
